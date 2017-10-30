@@ -1,0 +1,16 @@
+certifi==2017.7.27.1
+chardet==3.0.4
+Django==1.9.5
+gunicorn==19.7.1
+idna==2.6
+oauthlib==2.0.6
+PyJWT==1.5.3
+python-openid==2.2.5
+python-social-auth==0.2.14
+requests==2.18.4
+requests-oauthlib==0.8.0
+six==1.11.0
+urllib3==1.22
+whitenoise==3.3.1
+dj-database-url==0.4.0
+psycopg2==2.6.1

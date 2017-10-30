@@ -1,0 +1,1 @@
+web: gunicorn fitmarket.wsgi --log-file -
