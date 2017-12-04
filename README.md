@@ -1,6 +1,6 @@
-# fit-market 0.0.5
+# work-genie 0.0.5
 
-Fitmarket is an online marketplace for fitness classes and services, built using the Python web framework Django
+Work Genie is a peer to peer marketplace for online freelancer services, built using the Python web framework Django
 
 
 **Features**
@@ -31,7 +31,7 @@ Virtualenv Only
 First, make sure you are using virtualenv (http://www.virtualenv.org). Once
 that's installed, create your virtualenv::
 
-    $ virtualenv fitmarket
+    $ virtualenv workgenie
 
 You will also need to ensure that the virtualenv has the project directory
 added to the path. Adding the project directory will allow `django-admin.py` to
@@ -54,7 +54,7 @@ How to get development env running:
 Make sure the correct versions of Python and Django are installed on your system. Fire command prompt and run command:
 
 ```
-source myvirtualenv/fitmarket/bin/activate
+source myvirtualenv/workgenie/bin/activate
 python manage.py runserver
 ```
 
