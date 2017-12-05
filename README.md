@@ -68,7 +68,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Chris Bradshaw** - *Version 0.0.1* - [chrisbradshaw](https://github.com/chrisbradshaw)
+* **Chris Bradshaw** - *Version 0.0.5* - [chrisbradshaw](https://github.com/chrisbradshaw)
 
 ## License
 
