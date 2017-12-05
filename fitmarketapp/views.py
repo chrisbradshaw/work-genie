@@ -7,9 +7,9 @@ from .forms import GigForm
 import braintree
 
 braintree.Configuration.configure(braintree.Environment.Sandbox,
-                                    merchant_id="3hrtz5z44xv9rc5h",
-                                    public_key="njnd4544v5q2zd2h",
-                                    private_key="604996d1b5f408541a9a34b34a18d373")
+                                    merchant_id="vzdr8xtwbjbfz24v",
+                                    public_key="m8j829rr9sbzx3g9",
+                                    private_key="ac27ed390d997e8aaeff1e43fa94eac0")
 
 # Create your views here.
 def home(request):
