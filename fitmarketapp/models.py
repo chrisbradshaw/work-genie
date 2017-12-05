@@ -27,23 +27,38 @@ class Gig(models.Model):
     price = models.IntegerField(default=6)
     photo = models.FileField(upload_to='gigs')
     status = models.BooleanField(default=True)
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(
+    'User',
+    on_delete=models.CASCADE,
+    )
     create_time = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
         return self.title
 
 class Purchase(models.Model):
-    gig = models.ForeignKey(Gig)
-    buyer = models.ForeignKey(User)
+    gig = models.ForeignKey(
+    'Gig',
+    on_delete=models.CASCADE,
+    )
+    buyer = models.ForeignKey(
+    'User',
+    on_delete=models.CASCADE,
+    )
     time = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
         return self.gig.title
 
 class Review(models.Model):
-    gig = models.ForeignKey(Gig)
-    user = models.ForeignKey(User)
+    gig = models.ForeignKey(
+    'Gig',
+    on_delete=models.CASCADE,
+    )
+    user = models.ForeignKey(
+    'User',
+    on_delete=models.CASCADE,
+    )
     content = models.CharField(max_length=500)
 
     def __str__(self):
